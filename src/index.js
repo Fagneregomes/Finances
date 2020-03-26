@@ -1,5 +1,7 @@
 import React from 'react';
-import {Text, StyleSheet, View} from 'react-native';
+import {StyleSheet, View} from 'react-native';
+
+import Teste from '~/teste';
 
 const styles = StyleSheet.create({
   container: {
@@ -12,7 +14,7 @@ const styles = StyleSheet.create({
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>App</Text>
+      <Teste />
     </View>
   );
 }
