@@ -1,20 +1,14 @@
+import 'react-native-gesture-handler';
 import React from 'react';
-import {StyleSheet, View} from 'react-native';
+import { Provider as PaperProvider } from 'react-native-paper';
 
-import Teste from '~/teste';
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignContent: 'center',
-  },
-});
+import theme from './theme';
+import Routes from './routes';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Teste />
-    </View>
+    <PaperProvider theme={theme}>
+      <Routes />
+    </PaperProvider>
   );
 }
