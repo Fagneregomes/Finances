@@ -42,6 +42,9 @@
 		9F6D874B7DF747978ABCF5F7 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B759E6FC3D3C4315B406E900 /* Octicons.ttf */; };
 		DE613B441226497FACA5A317 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF9B679C00D348CFAE94C9DD /* SimpleLineIcons.ttf */; };
 		1773A383B28146D1A2A5A1A3 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96EE7FCC2DD749108EC6EADE /* Zocial.ttf */; };
+		A5E9CF336BC04EA39B4EE486 /* Sen-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F61A028284A07A84B13AF /* Sen-Bold.ttf */; };
+		C0BAC76613BA4BDEA9FD6ED5 /* Sen-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4D1695EA80A4D2DAB82E293 /* Sen-ExtraBold.ttf */; };
+		F77755D63F2E41C98A144C2F /* Sen-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F3388B104BB4389B5CAB6D1 /* Sen-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +106,9 @@
 		B759E6FC3D3C4315B406E900 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		DF9B679C00D348CFAE94C9DD /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		96EE7FCC2DD749108EC6EADE /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C63F61A028284A07A84B13AF /* Sen-Bold.ttf */ = {isa = PBXFileReference; name = "Sen-Bold.ttf"; path = "../assets/fonts/Sen-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F4D1695EA80A4D2DAB82E293 /* Sen-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Sen-ExtraBold.ttf"; path = "../assets/fonts/Sen-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0F3388B104BB4389B5CAB6D1 /* Sen-Regular.ttf */ = {isa = PBXFileReference; name = "Sen-Regular.ttf"; path = "../assets/fonts/Sen-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,6 +245,9 @@
 				B759E6FC3D3C4315B406E900 /* Octicons.ttf */,
 				DF9B679C00D348CFAE94C9DD /* SimpleLineIcons.ttf */,
 				96EE7FCC2DD749108EC6EADE /* Zocial.ttf */,
+				C63F61A028284A07A84B13AF /* Sen-Bold.ttf */,
+				F4D1695EA80A4D2DAB82E293 /* Sen-ExtraBold.ttf */,
+				0F3388B104BB4389B5CAB6D1 /* Sen-Regular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -406,6 +415,9 @@
 				9F6D874B7DF747978ABCF5F7 /* Octicons.ttf in Resources */,
 				DE613B441226497FACA5A317 /* SimpleLineIcons.ttf in Resources */,
 				1773A383B28146D1A2A5A1A3 /* Zocial.ttf in Resources */,
+				A5E9CF336BC04EA39B4EE486 /* Sen-Bold.ttf in Resources */,
+				C0BAC76613BA4BDEA9FD6ED5 /* Sen-ExtraBold.ttf in Resources */,
+				F77755D63F2E41C98A144C2F /* Sen-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

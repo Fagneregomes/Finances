@@ -1,12 +1,9 @@
 import styled from 'styled-components/native';
-import LinearGradient from 'react-native-linear-gradient';
 
 import Input from '~/components/Input';
 import Button from '~/components/Button';
 
-export const Container = styled(LinearGradient).attrs({
-  colors: ['#250048', '#583080'],
-})`
+export const Container = styled.View`
   flex: 1;
   justify-content: center;
   align-items: center;
@@ -15,7 +12,7 @@ export const Container = styled(LinearGradient).attrs({
 
 export const Form = styled.View`
   align-self: stretch;
-  margin-top: 50px;
+  margin-top: 40px;
 `;
 
 export const FormInput = styled(Input)`

@@ -1,8 +1,16 @@
 import React from 'react';
 import { Text } from 'react-native';
 
-// import { Container } from './styles';
+import { BakcgroundApp } from '~/components/Background';
+
+import { Container } from './styles';
 
 export default function Profile() {
-  return <Text>Profile</Text>;
+  return (
+    <BakcgroundApp>
+      <Container>
+        <Text>Profile</Text>
+      </Container>
+    </BakcgroundApp>
+  );
 }
