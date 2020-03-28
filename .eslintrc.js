@@ -30,6 +30,7 @@ module.exports = {
     camelcase: 'off',
     'no-console': ['error', { allow: ['tron'] }],
     'react/jsx-props-no-spreading': ['off'],
+    'react/prop-types': 0,
   },
   settings: {
     'import/resolver': {

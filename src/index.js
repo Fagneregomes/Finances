@@ -7,11 +7,11 @@ import { PersistGate } from 'redux-persist/integration/react';
 
 import './config/ReactotronConfig';
 
+import App from './App';
 import theme from './theme';
-import Routes from './routes';
 import { store, persistor } from './store';
 
-export default function App() {
+export default function index() {
   return (
     <Provider store={store}>
       <PersistGate persistor={persistor}>
@@ -20,7 +20,7 @@ export default function App() {
             barStyle="light-content"
             backgroundColor={theme.colors.primary}
           />
-          <Routes />
+          <App />
         </PaperProvider>
       </PersistGate>
     </Provider>
